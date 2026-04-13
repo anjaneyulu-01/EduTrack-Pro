@@ -1,0 +1,12 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Student Management System — SaaS Level",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && node scripts/seed.js",
+    "start": "cd backend && npm start"
+  }
+}
